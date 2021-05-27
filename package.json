@@ -1,0 +1,24 @@
+{
+  "name": "whitepaper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bookinstall": "gitbook install",
+    "serve": "gitbook serve",
+    "publish": "bash publish_gitbook.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepshardingdao/whitepaper.git"
+  },
+  "keywords": [
+    "whitepaper"
+  ],
+  "license": "MIT",
+
+  "dependencies": {
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-mathjax": "^1.1.2"
+  }
+}
